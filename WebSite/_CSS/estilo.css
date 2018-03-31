@@ -1,0 +1,59 @@
+* {margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html, body 									 { height:100%; display: block;}
+head												 { display: none;}
+body    										 { margin: 0;	padding: 0;	border: none;	background: #ffe; color: #333;}
+fieldset 										 { margin: 10px; padding: 20px; border-radius: 10px; border-color: #F1F1F1; border-style: groove;}
+legend  										 { font-family:  calibri; font-weight:  bold; font-style:   italic; font-size:    24px; color: #0000; padding: 0px 15px;}
+input   										 { border-radius: 5px;	width: 150px;	font: 12px/15 Helvetica; font-weight: bold; text-align: center;}
+div, dl, dt, li, p, span, ul {text-decoration: none; list-style: none; margin: 0; padding: 0; border: 0; outline: 0; line-height: 1;}
+a, body, button, dd, div, dl, dt, li, p, span, ul { text-decoration: none; list-style: none; margin: 0; padding: 0; border: 0; outline: 0; line-height: 1;}
+h1      										 { text-align: center; font-size: 25px; padding: 20px;}
+input					 	  { border-bottom: 1px solid #0000 !important; border: none; color: white !important; font-size: 10px !important; margin-bottom: 20px; width: 200px; margin-right: 60px;}
+/*====  AQUI VAI AS CLASSES GERAIS==== */
+.imagem_menu      { float:left; width:100%; height:560px; background:url(../imagens/corpo/imagen.jpg) repeat-x top center; }
+.main_logo 				{ display: inline-block;}
+.main_imagem 			{ position: absolute;}
+.main_icone 			{ position: absolute; width: 100%; height: 100%; background: rgba(0,0,0,.5) !important;}
+.relativee				{ position: relative;}
+.absolutee				{ position: absolute;}
+.botao-market 		{ padding: 20px 40px; color: #fff; background-color: #004C6C; font-size: 23px; border: 1px solid white; margin-top: 100px; cursor: pointer;}
+.imagem_contato 	{ width: 100px; height: 100px;}
+.marin_contato 		{ margin: 5px 0;}
+.font-if					{ font-family: 'Indie Flower', cursive;}
+.tamanho 					{ width: 100%; height: 100%;}
+.main_icone h1		{ text-align: center; margin: 20px auto; color: #fff; font-size: 3em;}
+.main_icone p			{ text-align: center; color: #fff; font-size: 2em;}
+.main_icone hr		{ width: 50%; margin: 0 25%;}
+.main_nav a			  { color: #fff; text-decoration: none;}
+.main_footer h1 	{ color: #111; margin-bottom: 10px; border-bottom: 1px solid #ccc;}
+.main_footer li 	{ margin-bottom: 5px;}
+.main_footer a 		{ color: #004C6C; text-decoration: none;}
+.main_footer a:hover {text-decoration: underline;}
+.sidebar					{ display: none;}
+.menu-mobile 			{ display: none;}
+/*Mobile*/
+@media            (and max-width: 920px){
+.main_logo 				{ display: block !important; 	width: 100% !important; }
+.content 					{ width: 80%; }
+.box 							{ display: block !important; float: none; margin: 50px 0 !important; }
+.box-medium 			{ width: 100% !important; margin: 50px 0 !important;	}
+.main_nav button  { float: left;	}
+.caixa 						{ margin: 50px 0 !important;}
+.menu 						{ width: 100% !important; display: none; text-align: left; padding: 0 !important ;}
+.menu a					  { width: 100% !important; background-color: #111;}
+.menu-mobile		  { display: inline-block !important; padding: 1%;}
+.menu-mobile.active{background-color: #004C6C;}
+.sidebar 					{ display: block !important;}
+.menu li 					{ display: block !important; width: 100% !important; background-color: #111;}
+.menu li:hover a  { background-color:  #004C6C;}
+.menu li:hover 	  { background-color:  #004C6C;}
+.main_header_menu .content {width: 100%; padding: 0 !important; margin: 0 !important;	}
+/*Fim Mobile*/                           }
+/*Desktop*/
+@@media           (min-width: 796%){
+nav               { height: 40px; padding-left: 25%; padding-top: 15px;}
+nav li            { width: 15%; text-align: center;}
+.ind-botao        { display: none; width: 65%; top: 3px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
+.ind-logo         { position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+.ind-logo img     { max-width: 100%; }
+/*Fim Desktop*/                     }
